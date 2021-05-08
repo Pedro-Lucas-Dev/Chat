@@ -1,19 +1,16 @@
 import React from "react";
+import "./index.css";
 
 const SearchBar = () => {
   return (
-    <div class="row">
-      <div class="col s1">
-        <i class="small material-icons">search</i>
-      </div>
-      <div class="input-field col s11">
-        <input
-          placeholder="Barra de pesquisa"
-          id="search"
-          type="text"
-          class="validate"
-        />
-      </div>
+    <div class="inputContainer">
+      <i class="material-icons iconSearch">search</i>
+      <input
+        placeholder="Barra de pesquisa"
+        id="search"
+        type="text"
+        class="inputBar"
+      />
     </div>
   );
 };
