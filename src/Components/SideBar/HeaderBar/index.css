@@ -1,0 +1,5 @@
+.HeaderBar {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
